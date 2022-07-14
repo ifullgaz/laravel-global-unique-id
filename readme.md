@@ -1,8 +1,10 @@
 ## Laravel GlobalUniqueId
-![Unit Tests](https://github.com/ifullgaz/laravel-global-unique-id/workflows/Unit%20Tests/badge.svg)
-[![Packagist License](https://poser.pugx.org/ifullgaz/laravel-global-unique-id/license.png)](http://choosealicense.com/licenses/mit/)
-[![Latest Stable Version](https://poser.pugx.org/ifullgaz/laravel-global-unique-id/version.png)](https://packagist.org/packages/barryvdh/laravel-debugbar)
-[![Total Downloads](https://poser.pugx.org/ifullgaz/laravel-global-unique-id/d/total.png)](https://packagist.org/packages/barryvdh/laravel-debugbar)
+![Unit Tests](https://github.com/ifullgaz/laravel-global-unique-id/workflows/CI/badge.svg)
+[![License](https://poser.pugx.org/ifullgaz/laravel-global-unique-id/license)](http://choosealicense.com/licenses/mit/)
+[![Latest Stable Version](https://poser.pugx.org/ifullgaz/laravel-global-unique-id/v)](https://packagist.org/packages/ifullgaz/laravel-global-unique-id)
+[![Latest Unstable Version](https://poser.pugx.org/ifullgaz/laravel-global-unique-id/v/unstable)](https://packagist.org/packages/ifullgaz/laravel-global-unique-id)
+[![PHP Version Require](https://poser.pugx.org/ifullgaz/laravel-global-unique-id/require/php)](https://packagist.org/packages/ifullgaz/laravel-global-unique-id)
+[![Total Downloads](https://poser.pugx.org/ifullgaz/laravel-global-unique-id/downloads)](https://packagist.org/packages/ifullgaz/laravel-global-unique-id)
 
 Trait to generate 64 bit globally unique ids for all running PHP processes.
 The unique ID is a 64-bits integer number.
@@ -33,6 +35,10 @@ the following snippet may be used to parse the raw response before deserializati
         });
         return data;
     }
+
+## Requirements
+
+This package requires Laravel 9 and above, apcu and redis php extensions and a redis server.
 
 ## Installation
 
